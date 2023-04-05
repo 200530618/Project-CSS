@@ -1,0 +1,136 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+  }
+  
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ED1B24;
+    margin-top: 0;
+  }
+  
+  header {
+    background-color: #FFFFFF;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  header nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+  
+  header nav ul li a:hover {
+    background-color: #ED1B24;
+    color: #FFFFFF;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+  }
+  
+  main p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #292424;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer address {
+    font-style: normal;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  header img {
+    max-width: 200px;
+    height: auto;
+  }
+  
+  main h1 {
+    font-size: 36px;
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  main p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+  
+ 
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  label {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  input,
+  textarea {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  button[type="submit"] {
+    background-color: #ED1B24;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #FFFFFF;
+    color: #ED1B24;
+    border: 1px solid #ED1B24;
+  }
+  
